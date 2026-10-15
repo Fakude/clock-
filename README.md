@@ -16,3 +16,9 @@ Moment is a browser-native time dashboard that expands the original broken digit
 Open `index.html` in a modern browser.
 
 The original files remain in `Flip-clock/` as the starting point for the project.
+
+## Quality and deployment
+
+[![Validate and deploy site](https://github.com/Fakude/clock-/actions/workflows/pages.yml/badge.svg)](https://github.com/Fakude/clock-/actions/workflows/pages.yml)
+
+GitHub Actions checks `app.js` and any other browser JavaScript on pushes and pull requests. Successful pushes to `main` deploy to GitHub Pages. Main files: `index.html`, `style.css`, `app.js`, and `.github/workflows/pages.yml`.
